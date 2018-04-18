@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.vrgsoft.smscodeview.MainActivity">
+
+    <net.vrgsoft.smsview.SmsCodeView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:textSize="33sp"
+        android:gravity="center"
+        app:onSubmit="onSubmit"
+        app:itemWidth="40dp"
+        app:itemHeight="67dp"
+        app:itemBackground="@drawable/sms_digit_bg"
+        app:itemTextColor="#757575"
+        app:itemTextCursorDrawable="@drawable/edit_cursor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:smsLength="6" />
+</android.support.constraint.ConstraintLayout>

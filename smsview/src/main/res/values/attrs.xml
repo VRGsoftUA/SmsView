@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmsCodeView">
+        <attr name="smsLength" format="integer"/>
+        <attr name="itemWidth" format="dimension"/>
+        <attr name="itemHeight" format="dimension"/>
+        <attr name="onSubmit" format="string"/>
+        <attr name="itemBackground" format="reference"/>
+        <attr name="itemTextCursorDrawable" format="reference"/>
+        <attr name="itemTextColor" format="color"/>
+        <attr name="android:gravity"/>
+        <attr name="android:textSize"/>
+    </declare-styleable>
+</resources>
